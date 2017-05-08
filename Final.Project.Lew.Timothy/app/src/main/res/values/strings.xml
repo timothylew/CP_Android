@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Final App</string>
+    <string name="auth_failed">"Authorization Failed"</string>
+    <string name="login">"Login"</string>
+    <string name="register">"Sign up for an account"</string>
+    <string name="forgotPassword">"Forgot Password?"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

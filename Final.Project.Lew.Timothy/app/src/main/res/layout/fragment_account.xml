@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/padding"
+    android:layout_marginRight="@dimen/padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Settings:"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:textStyle="italic"
+        android:id="@+id/accountSettings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prompt1"
+            android:text="Add a class that you need help with:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/class_needhelp"
+                android:layout_weight="1"
+                android:hint="Class Abbrev. (Format: CSCI-104)"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a class"
+            android:background="#000000"
+            android:textColor="@color/appTheme"
+            android:id="@+id/requestHelp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prompt2"
+            android:text="Add a class that you're an expert in:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/class_tutor"
+                android:layout_weight="1"
+                android:hint="Class Abbrev. (Format: CSCI-104)"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a class"
+            android:background="#000000"
+            android:textColor="@color/appTheme"
+            android:id="@+id/addTutor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Profile Photo"
+            android:id="@+id/manageUser"
+            android:background="@color/appTheme"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Change password"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:id="@+id/accountChangePassword"/>
+
+    </LinearLayout>
+
+</LinearLayout>
