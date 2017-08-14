@@ -24,9 +24,9 @@ Timothy Lew (me@timothylew.com)
 
 ## Walkthrough Videos
 
-<img src='https://github.com/timothylew/androidfinal/blob/master/walkthroughs/Login1.gif' title='Login Walkthrough 1' width='' alt='Login Walkthrough 1' />
-<img src='https://github.com/timothylew/androidfinal/blob/master/walkthroughs/Login2.gif' title='Login Walkthrough 2' width='' alt='Login Walkthrough 2' />
-<img src='https://github.com/timothylew/androidfinal/blob/master/walkthroughs/Walkthrough%20(Update).gif' title='Overall Walkthrough' width='' alt='Overall Walkthrough' />
+<img src='https://github.com/timothylew/CP_Android/blob/master/walkthroughs/Login1.gif' title='Login Walkthrough 1' width='' alt='Login Walkthrough 1' />
+<img src='https://github.com/timothylew/CP_Android/blob/master/walkthroughs/Login2.gif' title='Login Walkthrough 2' width='' alt='Login Walkthrough 2' />
+<img src='https://github.com/timothylew/CP_Android/blob/master/walkthroughs/Walkthrough%20(Update).gif' title='Overall Walkthrough' width='' alt='Overall Walkthrough' />
 
 All walkthrough GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
